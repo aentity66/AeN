@@ -168,12 +168,10 @@ a:hover {
 }
 #textBox {
     flex-direction: column;
-    justify-content: flex-start;
     display: flex;
     margin: initial;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: flex-start;
-    text-align: start;
     background-color: #F5F5DC;
 }
 #login {
