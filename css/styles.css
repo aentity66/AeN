@@ -28,11 +28,12 @@ a:hover {
 /***DROP-DOWN***/
 
 .dropbtn {
-    background-color: #D5DFE0;
-    color: white;
-    padding: 16px;
-    font-size: 11px;
+    background-color: #F5F5DC;
+    color: #000001;
+    padding: 40%;
+    font-size: 14px;
     border: none;
+    font-weight: bold;
 }
 
 .dropdown {
@@ -43,21 +44,22 @@ a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #F5F5DC;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 6px 10px 0px #000001;
+    font-size: 14;
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: black;
+    color: #000001;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #F5F5DC;
 }
 
 .dropdown:hover .dropdown-content {
@@ -65,8 +67,9 @@ a:hover {
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
+    background-color: #F5F5DC;
+    font-size: 110%;
+    }
 /*********HTML-SLUT***********/
 
 /**********GRID***********/
@@ -151,16 +154,6 @@ a:hover {
     font-weight: bold;
 }
 
- #textBox{
-    flex-direction: column;
-    justify-content: flex-start;
-    display: flex;
-    margin: initial;
-    justify-content: flex-start;
-    align-items: flex-start;
-    text-align: start;
-}
-
     /***FLEXBOX-ID***/
 
 #flexHeader {
@@ -172,6 +165,31 @@ a:hover {
 #flexNav {
     align-items: flex-start;
     width: 90%;
+}
+#textBox {
+    flex-direction: column;
+    justify-content: flex-start;
+    display: flex;
+    margin: initial;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    background-color: #F5F5DC;
+}
+#login {
+    flex-direction: column;
+    justify-content: flex-start;
+    display: flex;
+    margin: initial;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    background-color: #F5F5DC;
+    width: 200px;
+}
+#signIn {
+        font-size: 18px;
+        font-weight: bold;
 }
 /*********FLEXBOX-SLUT***********/
 
