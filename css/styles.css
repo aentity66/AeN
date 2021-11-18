@@ -1,0 +1,133 @@
+/**********HTML***********/
+body {
+    font-size: 14px;
+    width: 90%;
+    margin: 50px;
+    font-family: Arial;
+}
+
+a:link {
+    text-decoration: none;
+    font-style: italic;
+    color: blueviolet;
+}
+
+a:visited {
+    text-decoration: overline;
+    color: #03598A;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 111%;
+    color: black;
+}
+
+/**********GRID***********/
+
+/***GRID-CLASS***/
+.mainMeny {
+    width: 90%;
+    margin: auto;
+    background-color: #F5F5DC;
+    display: grid;
+    grid-template-areas:
+        "top top hidden"
+        "left main hidden"
+        "left bottom hidden";
+}
+/***GRID-ID***/
+
+#navMeny {
+    width: 90%;
+    text-align: center;
+    background-color: #F5F5DC;
+    justify-content: center;
+}
+
+.top {
+    grid-area: top;
+    width: auto;
+    
+}
+
+.left {
+    grid-area: left;
+    width: auto;
+}
+
+.main {
+    grid-area: main;
+    width: auto;
+}
+
+.bottom {
+    grid-area: bottom;
+    width: auto;
+    opacity: 0%;
+}
+.hidden {
+    grid-area: hidden;
+    display: none;
+}
+
+
+
+
+/*********GRID-SLUT***********/
+
+/*********MEDIA-QUIRES*********/
+@media (max-width: 700px) {
+    .mainMeny {
+        grid-template-areas:
+            "top top"
+            "left main"
+            "left bottom";
+    }
+    .hidden {
+        display: none;
+    }
+}
+
+/*********MEDIA-SLUT*********/
+
+/*********FLEXBOX***********/
+
+/***FLEXBOX-CLASS***/
+.flexMeny {
+    flex-direction: column;
+    justify-content: space-around;
+    grid-area: left;
+    margin: initial;
+    height: 90%;
+    display: flex;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+ #textBox{
+    flex-direction: column;
+    justify-content: flex-start;
+    display: flex;
+    margin: initial;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+}
+
+    /***FLEXBOX-ID***/
+
+#flexHeader {
+    font-size: 18px;
+    font-weight: bold;
+    width: 90%;
+}
+
+#flexNav {
+    align-items: flex-start;
+    width: 90%;
+}
+/*********FLEXBOX-SLUT***********/
+
