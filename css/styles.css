@@ -2,8 +2,8 @@
 body {
     font-size: 14px;
     width: 90%;
-    margin: 50px;
     font-family: Arial;
+
 }
 
 a:link {
@@ -77,70 +77,53 @@ a:hover {
 
 /***GRID-CLASS***/
 .mainMeny {
-    width: 90%;
-    margin: auto;
+    margin: 50px;
     background-color: #F5F5DC;
     display: grid;
     grid-template-areas:
-        "top top hidden"
-        "left main hidden"
-        "left bottom hidden";
+        "top top right"
+        "left center right"
+        "bottom bottom bottom";
+    grid-template-columns: 100px 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px 20px;
 }
+
+/*.mainMeny span {
+}*/
 
 /***GRID-ID***/
 
-#navMeny {
-    width: 90%;
-    text-align: center;
-    background-color: #F5F5DC;
-    justify-content: center;
-}
-
 .top {
     grid-area: top;
-    width: auto;
 
 }
 
 .left {
     grid-area: left;
-    width: auto;
 }
 
-.main {
-    grid-area: main;
-    width: auto;
+.center {
+    grid-area: center;
+
 }
 
 .bottom {
     grid-area: bottom;
-    width: auto;
-    opacity: 0%;
-}
-
-.hidden {
-    grid-area: hidden;
     display: none;
+
 }
 
+.right {
+    grid-area: right;
+    display: none;
 
-
+}
 
 /*********GRID-SLUT***********/
 
 /*********MEDIA-QUIRES*********/
-@media (max-width: 700px) {
-    .mainMeny {
-        grid-template-areas:
-            "top top"
-            "left main"
-            "left bottom";
-    }
 
-    .hidden {
-        display: none;
-    }
-}
 
 /*********MEDIA-SLUT*********/
 
@@ -149,36 +132,35 @@ a:hover {
 /***FLEXBOX-CLASS***/
 .flexMeny {
     flex-direction: column;
-    justify-content: space-around;
+    align-items: flex-end;
+    justify-content: flex-start;
     grid-area: left;
-    margin: initial;
-    height: 90%;
     display: flex;
     font-size: 22px;
     font-weight: bold;
 }
+
+.textBox {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    
+
+}
+
 
 /***FLEXBOX-ID***/
 
 #flexHeader {
     font-size: 18px;
     font-weight: bold;
-    width: 90%;
 }
 
 #flexNav {
     align-items: flex-start;
-    width: 90%;
 }
 
-#textBox {
-    flex-direction: column;
-    display: flex;
-    margin: initial;
-    justify-content: space-around;
-    align-items: flex-start;
-    background-color: #F5F5DC;
-}
 
 #login {
     flex-direction: column;
