@@ -85,7 +85,6 @@ a:hover {
         "left center right"
         "bottom bottom bottom";
     grid-template-columns: 100px 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
     gap: 20px 20px;
 }
 
@@ -132,9 +131,8 @@ a:hover {
 /***FLEXBOX-CLASS***/
 .flexMeny {
     flex-direction: column;
-    align-items: flex-end;
+    
     justify-content: flex-start;
-    grid-area: left;
     display: flex;
     font-size: 22px;
     font-weight: bold;
