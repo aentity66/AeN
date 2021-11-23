@@ -3,7 +3,10 @@ body {
     font-size: 14px;
     width: 90%;
     font-family: Arial;
-
+}
+button {
+    width: 60px;
+    height: 20px;
 }
 
 a:link {
@@ -45,7 +48,7 @@ a:hover {
     display: none;
     position: absolute;
     background-color: #F5F5DC;
-    min-width: 160px;
+    min-width: 50px;
     box-shadow: 0px 6px 10px 0px #000001;
     font-size: 14;
     z-index: 1;
@@ -131,7 +134,6 @@ a:hover {
 /***FLEXBOX-CLASS***/
 .flexMeny {
     flex-direction: column;
-    
     justify-content: flex-start;
     display: flex;
     font-size: 22px;
@@ -143,10 +145,17 @@ a:hover {
     display: flex;
     justify-content: flex-start;
     align-content: flex-start;
-    
-
 }
 
+.form1 {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 250px;
+    height: 300px;
+    background-color: #F5F5DC;
+}
 
 /***FLEXBOX-ID***/
 
@@ -177,5 +186,6 @@ a:hover {
     font-size: 18px;
     font-weight: bold;
 }
+
 
 /*********FLEXBOX-SLUT***********/
