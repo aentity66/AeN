@@ -1,47 +1,32 @@
-﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+﻿<!doctype html>
+<html>
 
 <head>
-    <link rel="stylesheet" href="../css/styles.css">
-    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="utf8">
     <title>AeN</title>
-    <link rel="icon" type="favicon" sizes="32x32" href="../images/AeN1.png" alt="logo">
+    <link rel="icon" type="favicon" sizes="32x32" href="/images/AeN1.png">
 </head>
 
 <body>
 
-    <span class="mainMeny">
-        <span class="top"><img src="../images/AeN1.png" height="100px" alt="logo"></span>
+    <span id="login">
+        <span class="top"><img src="/images/AeN1.png" height="150px" alt="logo"></span>
+        <span id="signIn">Please sign in:</span>
+        <label for="user">Username:</label>
+        <input type="text" placeholder="Username" name="user" required>
+        <label for="password">Password</label>
+        <input type="text" placeholder="Password" name="password" required>
 
-
-        <span class="left flexMeny">
-            <span><a href="../htm/index.htm">Home</a></span>
-            <span><a href="../htm/about.htm">About</a></span>
-            <span><a href="../htm/allies.htm">Allies</a></span>
-        </span>
-
-        <span class="center textBox">
-
-            <span id="flexHeader">Home</span>
-            <span>The definition of a place where one lives permanently.</span>
-            <span id="flexHeader">Homelessness</span>
-            <span>The definition of lacking stable and appropriate home.</span>
-            <span id="flexHeader">Insanity</span>
-            <span>The definition of insanity is doing the same thing over and over and expecting a different result</span>
-        </span>
-
-        <span class="right"></span>
-
-        <span class="bottom"></span>
-
-
+        <div class="dropdown">
+            <button class="dropbtn">Enter</button>
+            <div class="dropdown-content">
+                <a href="htm/index.htm">Enter</a>
+                <a href="index.htm">Cancel</a>
+                <a href="htm/btn1.htm" target="_blank">Help</a>
+            </div>
+        </div>
     </span>
-
-
-
-
-
 </body>
 
 </html>
