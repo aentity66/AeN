@@ -148,6 +148,7 @@ a:hover {
 }
 
 .form1 {
+    margin: 50px;
     flex-direction: column;
     display: flex;
     justify-content: flex-start;
