@@ -89,7 +89,8 @@ a:hover {
         "left center right"
         "bottom bottom bottom";
     grid-template-columns: 100px 1fr 1fr;
-    gap: 20px 20px;
+    grid-gap: 20px 20px;
+    border: gold 5px solid;
 }
 
 /*.mainMeny span {
@@ -109,17 +110,20 @@ a:hover {
 .center {
     grid-area: center;
 
+
 }
 
 .bottom {
     grid-area: bottom;
     display: none;
 
+
 }
 
 .right {
     grid-area: right;
     display: none;
+
 
 }
 
@@ -135,10 +139,12 @@ a:hover {
 /***FLEXBOX-CLASS***/
 .flexMeny {
     flex-direction: column;
-    justify-content: flex-start;
+    align-items: flex-end;
     display: flex;
     font-size: 22px;
     font-weight: bold;
+
+
 }
 
 .textBox {
@@ -146,6 +152,7 @@ a:hover {
     display: flex;
     justify-content: flex-start;
     align-content: flex-start;
+
 }
 
 .form1 {
@@ -165,14 +172,17 @@ a:hover {
     font-size: 18px;
     font-weight: bold;
 }
+
 #flexHeader2 {
     font-size: 18px;
     font-weight: bold;
 }
+
 #flexHeader3 {
     font-size: 18px;
     font-weight: bold;
 }
+
 #flexHeader4 {
     font-size: 18px;
     font-weight: bold;
