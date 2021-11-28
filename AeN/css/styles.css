@@ -161,7 +161,19 @@ a:hover {
 
 /***FLEXBOX-ID***/
 
-#flexHeader {
+#flexHeader1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+#flexHeader2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+#flexHeader3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+#flexHeader4 {
     font-size: 18px;
     font-weight: bold;
 }
