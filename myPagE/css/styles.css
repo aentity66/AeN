@@ -1,0 +1,108 @@
+/*general*/
+body {
+    font-size: 11px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 50px;
+    width: 90%;
+}
+
+/*link*/
+
+a:link {
+    text-decoration: none;
+    font-style: italic;
+    color: #01AE8B;
+    
+}
+
+a:visited {
+    text-decoration: overline;
+    color: #01AE8B;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 111%;
+    color: black;
+}
+
+/*grid*/
+
+.grid {
+
+    border: dotted 1px;
+    background-color: #EFF0F3;
+    width: 400px;
+    display: grid;
+    grid-template-areas:
+        "top top"
+        "left right"
+        "bottom bottom";
+        grid-template-columns: 50px 1fr;
+        grid-gap: 20px 20px;
+
+}
+
+.top {
+    grid-area: top;
+
+}
+
+.left {
+    grid-area: left;
+}
+
+.center {
+    grid-area: center;
+
+
+}
+
+.bottom {
+    grid-area: bottom;
+
+
+
+}
+
+.right {
+    grid-area: right;
+
+
+}
+
+/*grid-item*/
+.topen {
+    font-size: 17px;
+    color: #01AE8B;
+    font-weight: bold;
+    font-style: italic;
+    justify-content: left;
+    margin: 10px;
+
+}
+
+.menuen {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: 16px;
+    margin: 5px;
+
+}
+
+.secten {
+
+    text-align: left;
+    
+}
+
+.footen {
+    text-align: left;
+    font-size: 12px;
+    margin: 5px;
+}
