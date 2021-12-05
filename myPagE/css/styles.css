@@ -3,7 +3,7 @@ body {
     font-size: 11px;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 50px;
+    margin: 77px;
     width: 90%;
 }
 
@@ -89,7 +89,7 @@ a:hover {
 .menuen {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    justify-content: left;
     font-size: 16px;
     margin: 5px;
 
