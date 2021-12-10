@@ -7,6 +7,10 @@ body {
     width: 90%;
     background-color: #FFFFFF;
 }
+h2 {
+    font-size: 12px;
+    font-weight: bold;
+}
 
 /*link*/
 
@@ -30,7 +34,7 @@ a:hover {
     font-size: 111%;
     border-radius: 20%;
     color: black;
-    
+
 }
 
 /*drop-down*/
@@ -44,7 +48,7 @@ a:hover {
 
 .dropdown-content {
     display: none;
-    position: fixed;
+    position: absolute;
     background-color: #EFF0F3;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -53,8 +57,9 @@ a:hover {
     font-style: italic;
     font-weight: normal;
     font-size: 111%;
-    
-    
+    left: 200px;
+
+
 }
 
 .dropdown:hover .dropdown-content {
@@ -85,38 +90,38 @@ a:hover {
     grid-template-rows: 50px 1fr;
     grid-template-columns: 100px 1fr;
     grid-column-gap: 20px 10px;
-    
+
 }
 
 /*grid-template-area*/
 .top {
     grid-area: top;
-   
+
 
 }
 
 .left {
     grid-area: left;
-    
+
 }
 
 .center {
     grid-area: center;
-    
+
 
 
 }
 
 .bottom {
     grid-area: bottom;
-    
+
 
 
 }
 
 .right {
     grid-area: right;
-  
+
 
 
 }
@@ -130,7 +135,7 @@ a:hover {
     justify-content: left;
     margin: 10px;
     height: 50px;
-    
+
 
 }
 
@@ -139,7 +144,7 @@ a:hover {
     font-size: 12px;
     margin: 5px;
     height: 10px;
-    
+
 }
 
 /*flex-class*/
@@ -151,25 +156,25 @@ a:hover {
     justify-content: space-evenly;
     align-items: flex-start;
     height: 100px;
-   
+
 }
 
-.menuen > div {
-margin: 10px;
+.menuen>div {
+    margin: 10px;
 }
 
 
 .secten {
 
-
+    font-size: 12px;
     display: inline-flex;
     align-items: column;
     justify-content: column;
     flex-direction: column;
     margin: 10px;
     padding: 5px;
-    
-  
+
+
 }
 
 
@@ -185,6 +190,13 @@ margin: 10px;
 
 
 #flex-head {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 1px;
+}
+.flex-head {
     display: flex;
     justify-content: flex-start;
     font-weight: bold;
