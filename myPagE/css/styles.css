@@ -186,6 +186,7 @@ a:hover {
     display: flex;
     align-items: flex-start;
     font-size: 12px;
+    
 }
 
 
@@ -194,12 +195,16 @@ a:hover {
     justify-content: flex-start;
     font-weight: bold;
     font-size: 14px;
-    margin: 1px;
+    
 }
 .flex-head {
     display: flex;
     justify-content: flex-start;
     font-weight: bold;
     font-size: 14px;
-    margin: 1px;
+    
+}
+#flex-blank {
+    height: 12px;
+
 }
