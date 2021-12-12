@@ -6,6 +6,7 @@ body {
     margin: 77px;
     width: 90%;
     background-color: #FFFFFF;
+    cursor:default;
 }
 
 h2 {
@@ -23,8 +24,9 @@ a:link {
 }
 
 a:visited {
-    text-decoration: overline;
-    color: #01AE8B;
+    text-decoration:wavy;
+    color: #01725b;
+    
 
 }
 
@@ -32,9 +34,9 @@ a:hover {
     text-decoration: underline;
     font-weight: bold;
     font-style: italic;
-    font-size: 111%;
     border-radius: 20%;
-    color: black;
+    color: #004437;
+    cursor: default;
 
 }
 
@@ -44,7 +46,8 @@ a:hover {
     position: relative;
     display: inline-block;
     font-weight: bold;
-    padding: 2px;
+
+
 }
 
 .dropdown-content {
@@ -57,19 +60,25 @@ a:hover {
     z-index: 1;
     font-style: italic;
     font-weight: normal;
-    font-size: 111%;
-    left: 200px;
+    font-size: 121%;
+    left: 210px;
 
 
 }
 
 .dropdown:hover .dropdown-content {
     display: inline;
+
+
 }
 
-/*drop-down*/
+.dropdown:hover {
+    text-decoration: underline;
+    font-style: italic;
+    cursor: default;
+    
 
-
+}
 
 
 /*grid-class*/
