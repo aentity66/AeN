@@ -204,6 +204,12 @@ a:hover {
     font-size: 14px;
     
 }
+.flex-txt {
+    display: flex;
+    align-items: flex-start;
+    font-size: 12px;
+
+}
 #flex-blank {
     height: 12px;
 
