@@ -46,10 +46,7 @@ a:hover {
 .dropdown {
     position: relative;
     display: flex;
-    
-    
-
-
+  
 }
 
 .dropdown-content {
